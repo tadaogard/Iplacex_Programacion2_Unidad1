@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
      * Formateador de moneda para pesos chilenos (CLP).
      * Formato: $12.000 (puntos como separadores de miles)
      */
-    private val formatoCLP: NumberFormat = NumberFormat.getCurrencyInstance(Locale("es", "CL"))
+    private val formatoCLP: NumberFormat = NumberFormat.getCurrencyInstance(Locale.forLanguageTag("es-CL"))
 
     /**
      * Método llamado al crear la Activity.
